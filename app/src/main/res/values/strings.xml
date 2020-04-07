@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Riyadh Metro</string>
+
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+
+
+    <string-array name = "riyadh_stations">
+        <item>King Abdullah Financial Center</item>
+        <item>Olaya Station</item>
+        <item>National Museum Station</item>
+        <item>Kasr Alhokm Station</item>
+        <item>Western Station</item>
+    </string-array>
+
+
+    <string-array name="metro_status">
+        <item>Work</item>
+        <item>Not work</item>
+    </string-array>
+
+
+    <string-array name="metroMonitor">
+        <item>yes@metro.riyadhmetro.com</item>
+        <item>aasmaa@metro.com</item>
+    </string-array>
+
+
+</resources>

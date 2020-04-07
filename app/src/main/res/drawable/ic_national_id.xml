@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="442"
+    android:viewportHeight="442"
+    android:width="442dp"
+    android:height="442dp">
+    <path
+        android:pathData="M120 216c19.299 0 35 -15.701 35 -35 0 -19.299 -15.701 -35 -35 -35 -19.299 0 -35 15.701 -35 35 0 19.299 15.701 35 35 35zm0 -50c8.271 0 15 6.729 15 15 0 8.271 -6.729 15 -15 15 -8.271 0 -15 -6.729 -15 -15 0 -8.271 6.729 -15 15 -15z"
+        android:fillColor="@color/colorAccent" />
+    <path
+        android:pathData="M120 226c-33.084 0 -60 26.916 -60 60 0 5.523 4.477 10 10 10l100 0c5.523 0 10 -4.477 10 -10 0 -33.084 -26.916 -60 -60 -60zm-38.734 50c4.451 -17.233 20.13 -30 38.734 -30 18.604 0 34.283 12.767 38.734 30l-77.468 0z"
+        android:fillColor="@color/colorAccent" />
+    <path
+        android:pathData="M422 73L20 73C8.972 73 0 81.972 0 93l0 256c0 11.028 8.972 20 20 20l402 0c11.028 0 20 -8.972 20 -20L442 93C442 81.972 433.028 73 422 73ZM20 349L20 93 422 93 422.002 349 20 349Z"
+        android:fillColor="@color/colorAccent" />
+    <path
+        android:pathData="M372 211l-142 0c-5.522 0 -10 4.477 -10 10 0 5.523 4.478 10 10 10l142 0c5.522 0 10 -4.477 10 -10 0 -5.523 -4.478 -10 -10 -10z"
+        android:fillColor="@color/colorAccent" />
+    <path
+        android:pathData="M250 261l-20 0c-5.522 0 -10 4.477 -10 10 0 5.523 4.478 10 10 10l20 0c5.522 0 10 -4.477 10 -10 0 -5.523 -4.478 -10 -10 -10z"
+        android:fillColor="@color/colorAccent" />
+    <path
+        android:pathData="M372 261l-20 0c-5.522 0 -10 4.477 -10 10 0 5.523 4.478 10 10 10l20 0c5.522 0 10 -4.477 10 -10 0 -5.523 -4.478 -10 -10 -10z"
+        android:fillColor="@color/colorAccent" />
+    <path
+        android:pathData="M311 261l-20 0c-5.522 0 -10 4.477 -10 10 0 5.523 4.478 10 10 10l20 0c5.522 0 10 -4.477 10 -10 0 -5.523 -4.478 -10 -10 -10z"
+        android:fillColor="@color/colorAccent" />
+    <path
+        android:pathData="M230 181l71 0c5.522 0 10 -4.477 10 -10 0 -5.523 -4.478 -10 -10 -10l-71 0c-5.522 0 -10 4.477 -10 10 0 5.523 4.478 10 10 10z"
+        android:fillColor="@color/colorAccent" />
+</vector>

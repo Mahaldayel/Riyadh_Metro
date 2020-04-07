@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        tools:layout_editor_absoluteY="25dp">
+
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Trip"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:textSize="24dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_leavingD"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <TextView
+                        android:layout_marginStart="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Leaving Destination"
+                        />
+                    <Spinner
+                        android:layout_marginStart="15dp"
+                        android:layout_marginBottom="15dp"                    android:id="@+id/spinnerLeavingDestination"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/ArrivingLabel"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+
+                        android:layout_marginStart="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Arriving Destination"
+                        />
+                    <Spinner
+                        android:layout_marginStart="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:id="@+id/spinnerArrivingDestination"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_leavingT"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/leavingT"
+                        android:layout_width="match_parent"
+                        android:layout_margin="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="180dp"
+                        android:hint="Leaving Time"
+                        android:textSize="18sp"
+                        android:inputType=""/>
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_arrivalT"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/arrivalT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:layout_alignTop="@+id/leavingT"
+                        android:hint="Arriving Time"
+                        android:textSize="18sp"
+                        android:inputType=""/>
+                </android.support.design.widget.TextInputLayout>
+
+
+            </LinearLayout>
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<android.support.design.widget.TextInputLayout-->
+                    <!--android:id="@+id/input_layout_Aseats"-->
+                    <!--android:layout_width="155dp"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                    <!--<EditText-->
+                        <!--android:id="@+id/Aseats"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_margin="15dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_alignStart="@+id/arrivalD"-->
+                        <!--android:hint="Available Seats"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:inputType="number"/>-->
+                <!--</android.support.design.widget.TextInputLayout>-->
+
+                <!--<android.support.design.widget.TextInputLayout-->
+                    <!--android:id="@+id/input_layout_Bseats"-->
+                    <!--android:layout_width="155dp"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                    <!--<EditText-->
+                        <!--android:id="@+id/Bseats"-->
+                        <!--android:layout_margin="30dp"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_alignParentTop="true"-->
+                        <!--android:layout_marginTop="180dp" -->
+                        <!--android:hint="Booked seats"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:inputType="number"/>-->
+                <!--</android.support.design.widget.TextInputLayout>-->
+            <!--</LinearLayout>-->
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_GateNumber"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/GateNumber"
+                        android:layout_width="match_parent"
+                        android:layout_margin="15dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/arrivalT"
+                        android:hint="Gate Number"
+                        android:textSize="18sp"
+                        android:inputType="number" />
+                    <!--or with letters-->
+
+                </android.support.design.widget.TextInputLayout>
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_date"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/date"
+                        android:layout_margin="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Trip Date"
+                        android:layout_marginTop="180dp"
+                        android:textSize="18sp"
+                        android:inputType="date"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_metroStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_marginStart="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Metro"
+                    />
+                <Spinner
+                    android:layout_margin="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:id="@+id/spinnerMetro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/Add"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Trip" />
+
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

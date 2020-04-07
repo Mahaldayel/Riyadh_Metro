@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+
+
+
+        <item
+            android:id="@+id/view_trip"
+            android:title="Trip"
+            android:icon="@drawable/ic_trip"
+            />
+
+
+        <item
+            android:id="@+id/view_metro"
+            android:title="Metro"
+            android:icon="@drawable/ic_metro"
+            />
+
+
+        <item
+            android:id="@+id/view_account_monitor"
+            android:title="Account"
+            android:icon="@drawable/ic_person_24dp"
+            />
+
+
+
+
+
+
+
+
+
+</menu>

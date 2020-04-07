@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "316886155302",
+    "firebase_url": "https://riyadh-metro-444.firebaseio.com",
+    "project_id": "riyadh-metro-444",
+    "storage_bucket": "riyadh-metro-444.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316886155302:android:beeefd35107abec3",
+        "android_client_info": {
+          "package_name": "com.example.forall.riyadhmetro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316886155302-o3lru1054mhign5u1vsoiit8v83rcmde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCclSfzCZWaal_-jjB2KVrPVo-y0brOddQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316886155302:android:3af2d0aeb196ff98",
+        "android_client_info": {
+          "package_name": "com.example.hanan.riyadhmetro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316886155302-o3lru1054mhign5u1vsoiit8v83rcmde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCclSfzCZWaal_-jjB2KVrPVo-y0brOddQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

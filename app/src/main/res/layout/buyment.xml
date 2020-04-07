@@ -1,0 +1,200 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        tools:layout_editor_absoluteY="25dp">
+
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment Info"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:textSize="24dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_CardNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/CardNumber"
+                        android:layout_width="match_parent"
+                        android:layout_margin="15dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Card Number"
+                        android:textSize="18sp"
+                        android:inputType="number"
+                        app:met_helperText="* Required"
+                        app:met_minCharacters="16"
+                        app:met_maxCharacters="16"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/editTextExDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:hint="Expiration Date"
+                        android:textSize="18sp"
+                        android:inputType="date"
+                        app:met_helperText="* Required \n *Example 06/20"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_securityCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/securityCode"
+                        android:layout_width="match_parent"
+                        android:layout_margin="15dp"
+                        android:layout_height="wrap_content"
+                        android:hint="security Code"
+                        android:textSize="18sp"
+                        android:inputType="number"
+                        app:met_helperText="* Required"
+                        app:met_minCharacters="3"
+                        app:met_maxCharacters="3"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <Button
+                android:id="@+id/buy"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buy Ticket" />
+
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CreateAccount">
+
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_margin="15dp"
+                android:inputType="textPersonName"
+                android:hint="Enter your First Name"
+                android:id="@+id/editTextFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <EditText
+                android:layout_margin="15dp"
+                android:inputType="textPersonName"
+                android:hint="Enter your Last Name"
+                android:id="@+id/editTextLast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <EditText
+                android:layout_margin="15dp"
+                android:inputType="date"
+                android:hint="Enter your Date of Birth"
+                android:id="@+id/editTextBirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <EditText
+                android:layout_margin="15dp"
+                android:inputType="textEmailAddress"
+                android:hint="Enter your Email"
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <EditText
+                android:layout_margin="15dp"
+                android:inputType="number"
+                android:hint="Enter your National ID "
+                android:id="@+id/editTextNationalid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <EditText
+                android:layout_margin="15dp"
+                android:inputType="textPassword"
+                android:hint="Enter your Password"
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:layout_margin="15dp"
+                android:id="@+id/buttonRegister"
+                android:text="Create an account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textAlignment="center"
+                android:text="Already Registered? Sign in here"
+                android:id="@+id/textViewSignin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+    -->

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hanan.riyadhmetro">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LogoActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SigninActivity">
+
+        </activity>
+
+        <activity android:name=".manageTrip.ViewTripActivity">
+
+
+        </activity>
+        <activity android:name=".manageTrip.TripListViewActivity">
+
+
+        </activity>
+        <activity android:name=".manageTrip.AddTripActivity">
+
+        </activity>
+        <activity android:name=".SignupActivity">
+
+        </activity>
+        <activity android:name=".manageTrip.EditTripAvtivity"/>
+        <activity android:name=".mangeMetroMonitor.MetroMonitorListViewActivity">
+
+        </activity>
+        <activity android:name=".mangeMetroMonitor.EditMetroMonitorActivity"/>
+        <activity android:name=".mangeMetroMonitor.CreateMonitorAccount"/>
+        <activity android:name=".mangeMetroMonitor.ViewMetroMonitorActivity"/>
+        <activity android:name=".assign.AssignedMetroListViewActivity"/>
+        <activity android:name=".manageMetro.addMetro"/>
+        <activity android:name=".manageMetro.ViewMetroActivity"/>
+        <activity android:name=".manageMetro.EditMetroActivity"/>
+        <activity android:name=".manageMetro.MetroListViewActivity">
+
+        </activity>
+        <activity android:name=".assign.AssignedMonitorToMetroActivity"/>
+        <activity android:name=".manageTicket.ViewTicketActivity"/>
+        <activity android:name=".manageTicket.TicketListViewActivity"/>
+        <activity android:name=".buyTicket.BuyClass"/>
+        <activity android:name=".buyTicket.ViewTripAndBuyActivity"/>
+        <activity android:name=".manageUser.ChangeUserPassword" />
+        <activity android:name=".manageUser.EditUserAccount" />
+        <activity android:name=".manageUser.ViewUserAccountActivity">
+        </activity>
+        <activity android:name=".ResetPasswordActivity"/>
+        <activity android:name=".user_wallet.WalletActivity"/>
+        <activity android:name=".user_wallet.CheckPaymentActivity"/>
+        <activity android:name=".manageMetro.TrackMetroActivity">
+
+
+
+        </activity>
+        <activity android:name=".manageTicket.ScanTicket"/>
+    </application>
+
+</manifest>
